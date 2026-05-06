@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MapApplication</string>
+    <string name="show_map">Afficher La Map</string>
+    <string name="new_location">Nouvelle position : lat %1$.6f, lng %2$.6f, alt %3$.2f m, precision %4$.2f m</string>
+    <string name="location_permission_denied">Permission de localisation refusee. L\'application ne peut pas suivre la position.</string>
+    <string name="gps_disabled">GPS desactive. Activez la localisation pour recevoir les positions.</string>
+    <string name="position_saved_error">Impossible d\'envoyer la position au serveur.</string>
+    <string name="positions_load_error">Impossible de charger les positions.</string>
+    <string name="positions_loaded">%1$d position(s) chargee(s)</string>
+</resources>

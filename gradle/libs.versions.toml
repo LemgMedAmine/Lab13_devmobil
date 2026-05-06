@@ -1,0 +1,27 @@
+[versions]
+agp = "8.5.2"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+junit = "4.13.2"
+androidx-junit = "1.2.1"
+espresso = "3.6.1"
+volley = "1.2.1"
+play-services-maps = "18.2.0"
+osmdroid = "6.1.18"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+maps-core = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "play-services-maps" }
+osmdroid = { group = "org.osmdroid", name = "osmdroid-android", version.ref = "osmdroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
